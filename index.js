@@ -1,10 +1,11 @@
 // Paso 1
 const express = require('express')
-const path = require('path')
 const expressFileUpload = require('express-fileupload')
+const fs = require('fs')
+const path = require('path')
 const bodyParser = require('body-parser')
 const app = express()
-const fs = require('fs')
+
 app.listen(3000)
 
 app.use(express.static('assets'))
